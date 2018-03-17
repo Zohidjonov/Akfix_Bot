@@ -6,7 +6,6 @@ const 	TelegramBot = require('node-telegram-bot-api'),
 		token = '463668011:AAG7pA49csaiaIkMJhSIppSgVCh-1scBjpI',
 		bot = new TelegramBot(token, {polling: true });
 
-
 //MAIN MENU
 var Akfix = 'Akfix®';
 var RTR = 'RTR MAX®';
@@ -32,6 +31,7 @@ var Chainsaws = "Электро-бензопилы⚒";
 var Mixers = "Миксеры⚒";
 var Compressors = "Компрессоры⚒";
 var Welders = "Сварочные аппараты⚒";
+var chat_id = msg.chat.id
 
 //Keyboards
 //Menu
